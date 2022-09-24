@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+          <small>
+            The bill amount and cash given by the customer and know minimum
+            number of notes to return.
+          </small>
+        </p>
+        <label class="input-label" for="billamount">Bill Amount:</label>
+        <input class="input" id="billamount" type="text" />
+        <br />
+        <label class="input-label" for="amountRecieved">Cash Given:</label>
+        <input class="input" id="amountRecieved" type="text" />
+        <br />
+        <br />
+        <button id="check-button">Check</button>
+
+        <div id="error-Message"></div>
+        <table class="change-table">
+          <caption>
+            Return Change:
+          </caption>
+          <tr>
+            <th>No_of_Notes</th>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+            <td class="notes-num"></td>
+          </tr>
+
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>© | 2022 | yashaswimishra</p>
+      <ul class="footer-list">
+        <li>
+          <a
+            class="links"
+            href="https://github.com/mishrayashaswi"
+          >
+            <img src="./images/github.svg" alt="github" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            class="links"
+            href="https://discord.com/users/574220814723842050"
+          >
+            <img src="./images/discord.svg" alt="discord" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            class="links"
+            href="https://www.linkedin.com/in/mishrayashaswi"
+          >
+            <img src="./Images/linkedin.svg" alt="linkedin" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
