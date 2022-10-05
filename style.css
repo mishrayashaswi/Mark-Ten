@@ -12,10 +12,10 @@ a {
 
 :root {
   --primary-color: #6bfaff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   min-width: 100vw;
   background-color: rgb(228, 255, 244);
 }
@@ -112,6 +112,8 @@ a,
 img,
 li {
   display: inline;
+  list-style: none;
+  text-decoration: none;
 }
 
 img {
